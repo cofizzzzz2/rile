@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pilates Chair | Pilates Reformer Shop</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <script src="script1.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="css/imgs/logo.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+       <div id="product-container">
+        <div class="navbar">
+          <a href="index.html">
+            <img src="css/imgs/logo.jpg" class="logo"/>
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="products.html">PROIZVODI</a></li>
+              <li><a href="index.html#about-us">O NAMA</a></li>
+              <li><a href="index.html#contact">KONTAKT</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="mail-a">
+            <i class="fa fa-envelope fa-3x" class="mail-icon" onclick="toggleModal(event)"></i>
+        </a>
+        </div>
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="css/imgs/sprava2/Pilates-Chair-Pilates-Reformer-Machine-for-Home-Stability-Pilates-Pro-Chair-Equipment-Yoga-Pilates-Fitness-Trainer_99dee20d-1c14-4038-8fb1-bb8f28fec38f.6b5d896ee7b3a9a6ce3cc057e5ff8bde.webp" width="100%" id="ProductImg">
+                    <span class="close-icon" id="closeIcon">×</span>
+                    <div class="small-img-row1">
+                      <div class="small-img-col">
+                        <img src="css/imgs/sprava2/sprava22.jpeg" width="100%"  class="small-img" />
+                      </div>
+                      <div class="small-img-col">
+                        <img src="css/imgs/sprava2/sprava21.jpeg" width="100%" class="small-img" />
+                      </div>
+                    </div>
+                </div>
+                <div class="col-2 bg-color">
+                    <h1>Pilates Chair</h1>
+                    <h4>715&#8364;</h4>
+                    <div class="row12">
+                      <i class="fa fa-check-circle"></i>
+                      <h2>Visokokvalitetno hrastovo drvo</h2>
+                    </div>
+                    <div class="row12">
+                      <i class="fa fa-check-circle"></i>
+                      <h2>Lako održivi materijali</h2>
+                    </div>
+                    <div class="row12">
+                      <i class="fa fa-check-circle"></i>
+                      <h2>Izuzetna stabilnost</h2>
+                    </div>
+                    <h3 class="toggle-trigger">Opis proizvoda</h3>
+                    <p class="expandable-content hidden">Pilates Chair, poznata i kao Wunda Chair, je višenamenski rekvizit za vežbanje koji omogućava izvođenje širokog spektra vežbi za jačanje tela. Idealan je za razvijanje snage, ravnoteže i fleksibilnosti. 
+                      Pilates Chair je posebno koristan za ciljano vežbanje mišića trupa, nogu i ruku, pružajući podršku i otpor potrebne za precizno izvođenje pokreta. Savršen je za kućne vežbe. Pilates Chair može pomoći svakome da postigne bolje držanje, povećanu stabilnost i ukupnu telesnu kondiciju.
+                    </p>
+                <div class="button-container">
+                  <button class="dugme" onclick="toggleModal(event)">Kontakt</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-container">
+            <h2 class="title">Slični Proizvodi</h2>
+            <div class="row komsha">
+              <a href="product7.html" class="col-4">
+                <div>
+                    <img src="css/imgs/sprava3/background.jpg" />
+                    <h4>Ladder Barrel</h4>
+                    <p>730&#8364;</p>
+                </div>
+              </a>
+              <a href="product8.html" class="col-4">
+                <div>
+                    <img src="css/imgs/sprava4/background.jpg" />
+                    <h4>Spine Corrector</h4>
+                    <p>290&#8364;</p>
+                </div>
+              </a>
+              <a href="product2.html" class="col-4">
+                <div>
+                    <img src="css/imgs/sprava5/background.jpg" />
+                    <h4>Reformer Cadillac</h4>
+                    <p>2900&#8364;</p>
+                </div>
+              </a>
+              <a href="product1.html" class="col-4">
+                <div>
+                    <img src="css/imgs/sprava1/background.jpg" />
+                    <h4>Reformer Eko</h4>
+                    <p>2190&#8364;</p>
+                </div>
+              </a>
+            </div>
+        </div>
+    
+       </div>
+        
+       <!-- Modal Popup -->
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+    <div class="contact-form">
+        <h2>Kontaktirajte nas</h2>
+        <form method="POST" action="https://formspree.io/f/xqazkvzo">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Vaše Ime" required autocomplete="on">
+            </div>
+            <div class="form-group">
+                <input type="text" id="surname" name="surname" placeholder="Vaše Prezime" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Vaš Email" required autocomplete="on">
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" rows="4" placeholder="Vaša poruka" required></textarea>
+            </div>
+            <p class="phone-number">Ili nas pozovite!: +381 65 9970 599</p>
+            <button type="submit" class="submit-btn">Pošaljite poruku!</button>
+     </form>
+    </div>
+    </div>
+    </div>
+    <div class="social-icons">
+    <a href="https://www.instagram.com/pilatesreformer_shopsrbija/"  target="_blank" class="social-icon">
+        <i class="fa fa-instagram"></i>
+    </a>
+    </div>
+    <footer>
+      <div class="container2">
+        <div class="footer-left">
+          <h3>Kontaktirajte nas!</h3>
+          <p>Email: alexandrosarena@gmail.com</p>
+          <p>Telefon: +381 65 9970 599</p>
+          <div class="social-icons1">
+            <a href="https://www.instagram.com/pilatesreformer_shopsrbija/" target="_blank"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h3>Brzi linkovi</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Proizvodi</a></li>
+            <li><a href="index.html#about-us">O nama</a></li>
+            <li><a href="index.html#contact">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Pilates Reformer Shop. Sva prava su zadrzana.</p>
+      </div>
+    </footer>
+</body>
+</html>
+
+
