@@ -69,7 +69,9 @@ nav ul li {
 nav ul li:nth-child(4) {
   margin-right: 80px;
 }
-
+.phn-nmb{
+  text-decoration: none;
+}
 .navbar nav ul li a {
   text-decoration: none;
   color: white;
@@ -264,6 +266,7 @@ textarea {
 .phone-number {
   text-align: center;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .submit-btn {
