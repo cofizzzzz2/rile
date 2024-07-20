@@ -262,6 +262,10 @@ textarea {
   margin-top: 10px;
   text-decoration: none;
 }
+.phone-number a{
+  text-decoration: none;
+  color:black;
+}
 
 .submit-btn {
   background-color: #ff6f61;
