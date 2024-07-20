@@ -347,6 +347,7 @@ textarea {
 }
 .phn-nmb{
   text-decoration: none;
+  color: white;
 }
 .prdbtn:hover {
   background-color: #e55f52;
@@ -2099,5 +2100,9 @@ footer{position:relative;
 }
 .col1 a{
   bottom: -150px;
+}
+.phn-nmb{
+  text-decoration: none;
+  color: white;
 }
 }
