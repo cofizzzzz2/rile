@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /phpmailer/
+Disallow: /css/
+
+Sitemap: https://www.pilatesshopsrbija.com/sitemap.xml
