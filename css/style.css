@@ -1851,7 +1851,7 @@ padding: 5px;
 .small-img-col{
   padding-bottom: 0;
 }
-.phn-nmb{
+.phn-nmb a{
   text-decoration: none;
   color: white;
 }
