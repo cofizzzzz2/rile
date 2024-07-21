@@ -1916,6 +1916,7 @@ background-color: rgb(202, 202, 202);}
 #container{
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('imgs/background22.jpg');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -2102,7 +2103,12 @@ background-color: rgb(202, 202, 202);}
 
 
   /*productshtml*/
-
+  #productscontainer {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('imgs/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
   .product-card1 {
    min-width: 280px;
    padding: 20px;
