@@ -45,20 +45,40 @@ document.addEventListener("DOMContentLoaded", function() {
     const prdbtn = document.querySelector(".prdbtn");
     if (prdbtn) {
         prdbtn.addEventListener("click", function() {
-            window.location.href = "products.html";
+            window.location.href = "products";
         });
     }
 
     document.querySelectorAll(".btn11, .btn12, .btn13").forEach(function(btn) {
         if (btn) {
             btn.addEventListener("click", function() {
-                const productId = btn.classList.contains('btn11') ? 'product1.html' :
-                                    btn.classList.contains('btn12') ? 'product2.html' :
-                                    'product3.html';
+                const productId = btn.classList.contains('btn11') ? 'product1' :
+                                    btn.classList.contains('btn12') ? 'product2' :
+                                    'product3';
                 window.location.href = productId;
             });
         }
-    });
-    
+    }); 
+    function slugify(text) {
+        return text
+          .toString()
+          .toLowerCase()
+          .replace(/\s+/g, '-')           // Replace spaces with -
+          .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+          .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+          .replace(/^-+/, '')             // Trim - from start of text
+          .replace(/-+$/, '');            // Trim - from end of text
+      }
+  
+      document.addEventListener('DOMContentLoaded', (event) => {
+        const titleInput = document.querySelector('#title');
+        const slugInput = document.querySelector('#slug');
+        
+        if (titleInput && slugInput) {
+          titleInput.addEventListener('input', function() {
+            slugInput.value = slugify(this.value);
+          });
+        }
+      });
 });
    
