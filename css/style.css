@@ -1539,7 +1539,7 @@ footer a{
 body {height: 1900px;
   background-color: rgb(202, 202, 202);}
   footer{position:relative;
-    top:1900px;}
+    top:2000px;}
 
     .small-img-col{
       padding-bottom: 12px;
@@ -1565,6 +1565,7 @@ footer a{
   padding-right: 00px;
   margin-right: 30px;
 }
+
 
 }
 /* 479 px*/
