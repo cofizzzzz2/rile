@@ -1193,13 +1193,7 @@ footer .footer-right ul li a:hover {
   }
 }
 
-@media(max-width:1440px) and (max-height: 900px){
 
-  footer{
-    top:400px;
-  }
-
-}
 
 @media(max-width: 1536px) and (max-height: 864px){
 
@@ -1216,15 +1210,32 @@ footer .footer-right ul li a:hover {
     top: 700px;
   }
 }
-  
-@media(max-width: 1366px) and (max-height: 768px){
+@media (max-width:1488px) and (max-height: 755px){
+
+  footer{
+    top:700px;
+  }
+
+}
+  @media(max-width:1440px) and (max-height: 900px){
+
+  footer{
+    top:400px;
+  }
+
+}
+@media(min-width: 1366px) and (max-height: 768px){
 
 
   footer{
     top: 650px;
   }
 }
-
+@media(min-width: 1029px) and (max-width:1365px){
+  footer{
+    top:500px;
+  }
+}
 @media (max-width: 1028px) {
   #ProductImg.expanded{
     width: 560px;
