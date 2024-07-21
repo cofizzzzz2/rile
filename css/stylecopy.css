@@ -1148,6 +1148,93 @@ footer .footer-right ul li a:hover {
 
 
 /* Responsive styles */
+
+@media(min-width:2560px) and (min-height:1440px){
+
+  .scroll-down{
+    margin-bottom: 150px;
+    font-size:50px;
+  }
+
+  .arrow-circle{
+    width: 120px;
+    height:120px;
+  }
+  
+  .col1 h1{
+    margin-top:400px;
+    font-size: 120px;
+  }
+
+  #scrollToTopBtn{
+    width:120px;
+    height: 120px;
+    font-size: 60px;
+  }
+
+  .social-icons{
+    width: 60px;
+    height: 60px;
+  }
+  .social-icons i{
+    font-size: 61px;
+  }
+  .navbar{
+    height:200px;
+  }
+  .logo{
+    height: 150px;
+    width:  150px;
+    border-radius: 75px;
+  }
+  .mail-a i{
+    font-size: 85px;
+  }
+  .navbar nav ul li a{
+    font-size: 30px;
+  }
+}
+
+@media(max-height: 834px) and (min-height:741px){
+
+.scroll-down{
+  margin-bottom:-140px
+}
+
+
+}
+@media(max-width: 1536px) and (max-height: 742px){
+
+.scroll-down{
+  margin-bottom: -140px;
+}
+
+.col1 h1{
+  margin-top: 200px;
+}
+
+}
+
+@media(max-width:1504px) and (max-height: 723px){
+.scroll-down{
+  margin-bottom: -140px;
+}
+
+.col1 h1{
+  margin-top: 140px;
+}
+  
+}
+
+@media(max-width: 1366px) and (max-height: 768px){
+
+.scroll-down{
+  margin-bottom: -100px;
+}
+.col1 h1{
+  margin-top: 160px;
+}
+}
 @media (max-width: 1028px) {
   .navbar nav ul {
       flex-direction: column;
@@ -1234,7 +1321,7 @@ footer .footer-right ul li a:hover {
     margin: 0 auto 20px;
     width: 50%;
   }
-  /* Contact section styles */
+  /* Contact section */
   .content {
     flex-direction: column; /* Stack elements vertically */
     text-align: center; /* Center align text */
@@ -1827,7 +1914,7 @@ body{background-color: rgb(202, 202, 202);}
  body {height: 2500px;
 background-color: rgb(202, 202, 202);}
 #container{
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('imgs/background2.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('imgs/background22.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2046,7 +2133,7 @@ background-color: rgb(202, 202, 202);}
     z-index: 1;
 }
 
-/*product1*/
+/* products */
 
 .col-2 img:first-of-type {
   margin-top: 0;
