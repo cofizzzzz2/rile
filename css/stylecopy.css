@@ -1926,7 +1926,7 @@ background-color: rgb(202, 202, 202);}
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
   .navbar {
     padding: 5px 5%; /* Reduce padding on small screens */
