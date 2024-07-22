@@ -2118,22 +2118,8 @@ background-color: rgb(202, 202, 202);}
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
-  #productscontainer:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:0vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url('imgs/background1.jpg') center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
   .product-card1 {
    min-width: 280px;
    padding: 20px;
